@@ -98,14 +98,24 @@ export default function App() {
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col selection:bg-sky-500 selection:text-white">
       {/* 3-ZONE TOP BAR CONTRACT */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-6 py-3.5 bg-slate-950/90 backdrop-blur-md border-b border-slate-800">
-        {/* Zone 1: Single text element wordmark */}
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-sky-600 flex items-center justify-center shadow-lg shadow-sky-600/30">
+        {/* Top Left: Student Name, Roll No & Assignment Title */}
+        <div className="flex items-center gap-3">
+          <div className="w-9 h-9 rounded-lg bg-sky-600 flex items-center justify-center shadow-lg shadow-sky-600/30 shrink-0">
             <Zap className="w-5 h-5 text-white stroke-[2.5]" />
           </div>
-          <span className="text-lg font-bold tracking-tight text-white font-['Plus_Jakarta_Sans',sans-serif]">
-            PowerRectify
-          </span>
+          <div className="flex flex-col">
+            <div className="flex items-center gap-2">
+              <span className="text-sm sm:text-base font-bold tracking-tight text-white font-['Plus_Jakarta_Sans',sans-serif]">
+                Ayush Bhushan
+              </span>
+              <span className="text-[11px] font-mono font-semibold px-2 py-0.5 rounded bg-sky-950 text-sky-400 border border-sky-800 tabular-nums">
+                24EE10043
+              </span>
+            </div>
+            <div className="text-[11px] font-medium text-slate-400">
+              Power Electronics In-Class Assignment 2
+            </div>
+          </div>
         </div>
 
         {/* Zone 2: 4-6 text navigation anchors */}
@@ -265,7 +275,7 @@ export default function App() {
 
       {/* Quiet Footer */}
       <footer className="mt-auto border-t border-slate-900 bg-slate-950 px-6 py-4 text-xs text-slate-500 flex flex-wrap items-center justify-between gap-4">
-        <div>PowerRectify · Power Electronics Laboratory Simulator</div>
+        <div>Ayush Bhushan (24EE10043) · Power Electronics In-Class Assignment 2</div>
         <div className="flex items-center gap-4">
           <span>IEC 60146 / IEEE 519 Standard Reference Models</span>
           <span aria-hidden="true">·</span>

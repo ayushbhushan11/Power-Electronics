@@ -1,5 +1,7 @@
 # PowerRectify ⚡
-### Interactive Power Electronics Rectifier Simulator
+### Power Electronics In-Class Assignment 2
+**Student**: Ayush Bhushan (Roll No: **24EE10043**)  
+**Department**: Department of Electrical Engineering  
 
 An interactive, laboratory-grade web application for simulating single-phase and three-phase uncontrolled (diode) and controlled (thyristor / SCR) rectifiers in real time. Designed for electrical and electronics engineering students, educators, and power electronics practitioners.
 
